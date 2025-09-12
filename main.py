@@ -10,4 +10,4 @@ elif W[-1] in ['d']:
     k = float(K/1000)
     print('转换后的重量为%.3f kg'%k)
 else:
-    print('请输入正确的单位')
+    print('输入格式错误')
