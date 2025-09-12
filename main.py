@@ -1,7 +1,9 @@
 W = input('请输入需转换的重量；')
 if W[-1] in ['g']:
     D = eval(W[0:-2])*22.046
-    print('转换后的重量为%.3f pd'%D)
+    P = int(D*1000)
+    p = float(P/1000)
+    print('转换后的重量为%.3f pd'%p)
 elif W[-1] in ['d']:
     G = eval(W[0:-2])/22.046
     K = int(G*1000)
